@@ -13,13 +13,13 @@
     "proxy-dev": "sh ./scripts/init-proxy.sh && proxychains -f ./scripts/proxychains.conf yarn dev"
   },
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
     "@hello-pangea/dnd": "^16.2.0",
     "@svgr/webpack": "^6.5.1",
     "@vercel/analytics": "^0.1.11",
-    "emoji-picker-react": "^4.4.7",
+    "emoji-picker-react": "^4.4.8",
     "eventsource-parser": "^0.1.0",
     "fuse.js": "^6.6.2",
+    "jsonwebtoken": "^8.5.1",
     "next": "^13.3.1-canary.8",
     "node-fetch": "^3.3.1",
     "openai": "^3.2.1",
@@ -38,7 +38,7 @@
     "zustand": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^18.14.6",
+    "@types/node": "^18.15.13",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@types/react-katex": "^3.0.0",
